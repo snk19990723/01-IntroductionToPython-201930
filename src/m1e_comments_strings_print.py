@@ -32,6 +32,9 @@
 #
 # print(3 + 9)
 # print('3 + 9', 'versus', 3 + 9)
-product = 1
-for k in range(5,36,3):
-    print(k)
+import math
+
+sum=0
+for k in range(3**2,69**2+1):
+    sum=sum+math.sin(k)
+print(sum)
