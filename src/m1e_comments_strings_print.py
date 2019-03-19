@@ -25,10 +25,13 @@
 #
 ###############################################################################
 
-
-print('Hello, World')
-print('hi there')
-print('one', 'two', 'buckle my shoe')
-
-print(3 + 9)
-print('3 + 9', 'versus', 3 + 9)
+#
+# print('Hello, World')
+# print('hi there')
+# print('one', 'two', 'buckle my shoe')
+#
+# print(3 + 9)
+# print('3 + 9', 'versus', 3 + 9)
+product = 1
+for k in range(5,36,3):
+    print(k)
