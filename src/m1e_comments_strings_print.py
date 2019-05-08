@@ -24,5 +24,6 @@
 #   feel free to play with it briefly, then move on to m2.
 #
 ###############################################################################
-sequence='asdfghjkl;'
-print(sequence[2])
+T=[1,2,2,4,5]
+
+print(T[0:3])
